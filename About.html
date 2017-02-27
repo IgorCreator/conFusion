@@ -16,7 +16,7 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="200">
  
        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
               
@@ -94,59 +94,68 @@
         </div>
     </header>
        
-                 <div class="container">
-                    <div>
-                    <ol class="breadcrumb">
-                         <li><a href="Home.html">Home</a></li>
-                          <li class="active">About</li>
-                    </ol>
-                    </div>
-                    <div>
-                       <h3>About Us</h3>
-                       <hr>
-                    </div>
-                </div>
 
-   
     <div class="container">
-        <div class="row row-content">
-            <div class="col-xs-12 col-sm-8">
+       <div class="row">
+       <div class="col-xs-12 col-sm-10">
+       
+       <div class="col-xs-12">
+          <div>
+            <ol class="breadcrumb">
+                <li><a href="Home.html">Home</a></li>
+                <li class="active">About</li>
+            </ol>
+          </div>
+            <div>
+                <h3>About Us</h3>
+                <hr>
+            </div>
+         </div>
+        
+       
+        <div id="history" class="row row-content">
+            <div class="col-xs-12 col-sm-6 col-lg-7">
                 <h2>Our History</h2>
                 <p>Started in 2010, Ristorante con Fusion quickly established itself as a culinary icon par excellence in Hong Kong. With its unique brand of world fusion cuisine that can be found nowhere else, it enjoys patronage from the A-list clientele in Hong Kong. Featuring four of the best three-star Michelin chefs in the world, you never know what will arrive on your plate the next time you visit us.</p>
                 <p>The restaurant traces its humble beginnings to <em>The Frying Pan</em>, a successful chain started by our CEO, Mr. Peter Pan, that featured for the first time the world's best cuisines in a pan.</p>
-                <div class="well">
-                    <blockquote>
-                        <p>You better cut the pizza in four pieces because
-                            I'm not hungry enough to eat six.</p>
-                        <footer>Yogi Berra,
-                          <cite>The Wit and Wisdom of Yogi Berra,
-                            P. Pepe, Diversion Books, 2014</cite>
-                        </footer>
-                    </blockquote>
-                </div>           
             </div>
             
-            <div class="col-xs-12 col-sm-4">
-              <div class="panel panel-primary">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Facts At a Glance</h3>
-                        
-                    </div>
-                    <div class="panel-body">
-                        <dl class="dl-horizontal">
-                            <dt>Started</dt><dd>3 Feb. 2013</dd>
-                            <dt>Major Stake Holder</dt><dd>HK Fine Foods Inc.</dd>
-                            <dt>Last Year's Turnover</dt><dd>$1,250,375</dd>
-                            <dt>Employees</dt><dd>40</dd>
-                       </dl>
-                    </div>
-                </div>
-           </div>
+                  <div class="col-xs-12 col-sm-6 col-lg-5">
+                      <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Facts At a Glance</h3>
+
+                            </div>
+                            <div class="panel-body">
+                                <dl class="dl-horizontal">
+                                    <dt>Started</dt><dd>3 Feb. 2013</dd>
+                                    <dt>Major Stake Holder</dt><dd>HK Fine Foods Inc.</dd>
+                                    <dt>Last Year's Turnover</dt><dd>$1,250,375</dd>
+                                    <dt>Employees</dt><dd>40</dd>
+                               </dl>
+                            </div>
+                        </div>
+                   </div>
+                   
+                   <div class="col-xs-12 col-sm-6 col-lg-10">
+                    <div class="well">
+                        <blockquote>
+                            <p>You better cut the pizza in four pieces because
+                                I'm not hungry enough to eat six.</p>
+                            <footer>Yogi Berra,
+                              <cite>The Wit and Wisdom of Yogi Berra,
+                                P. Pepe, Diversion Books, 2014</cite>
+                            </footer>
+                        </blockquote>
+                     </div> 
+                    </div> 
+            
+            
         </div>
 
 
-        <div class="row row-content">
-            <div class="col-xs-12 col-sm-9">
+        <div id="corporate" class="row row-content">
+            <div class="col-xs-12">
                        
                 <h2>Corporate Leadership</h2>
                 
@@ -189,13 +198,92 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-3">
-              <p style="padding:20px;"></p>
-            </div>
         </div>
         
-        <div class="row row-content">
-            <div class="col-xs-12 col-sm-9">
+        
+        
+        <div id="littleinfoaboutus" class="row row-content">
+            <div class="col-xs-12">
+                       
+                <h2>A little bit About Us</h2>
+                
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                      <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          The standard Lorem Ipsum passage, used since the 1500s
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                      <div class="panel-body">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                      <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Section <b>1.10.32</b> of <em>"de Finibus Bonorum et Malorum"</em>, written by Cicero in 45 BC
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                      <div class="panel-body">
+                        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                      <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          1914 translation by H. Rackham
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                      <div class="panel-body">
+                        "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingFour">
+                      <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          Section <b>1.10.33</b> of <em>"de Finibus Bonorum et Malorum"</em>, written by Cicero in 45 BC
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                      <div class="panel-body">
+                        "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingFive">
+                      <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                          1914 translation by H. Rackham
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                      <div class="panel-body">
+                        "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
+                      </div>
+                    </div>
+                  </div>
+                </div> <!-- close the panel-group -->
+            </div>  <!-- close the colloms -->
+        </div> <!-- close the row row-content -->
+            
+        <div id="facts" class="row row-content">
+            <div class="col-xs-12">
                 <h2>Facts &amp; Figures</h2>
                 <div class="table-response">
                     <table class="table table-striped table-hover">
@@ -216,13 +304,21 @@
                         </tr>
                     </table>
                 </div>
-            </div> 
-            <div class="col-xs-12 col-sm-3">
-              <p style="padding:20px;"></p>
-            </div>           
-        </div>
-        
-    </div>
+            </div>       
+       </div> <!-- close the row row-content -->
+      </div>  <!-- close the huge web-page colloms -->  
+      
+         <nav class="hidden-xs col-sm-2" id="myScrollspy">
+            <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="400">
+                <li><a href="#history">Our History</a></li>
+                <li><a href="#corporate">Corporate</a></li>
+                <li><a href="#littleinfoaboutus">A little bit About Us</a></li>
+                <li><a href="#facts">Facts</a></li>
+            </ul>
+         </nav>
+               
+     </div> <!-- close the row -->
+    </div>  <!-- close the container -->
 
    
    
