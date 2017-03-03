@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <!-- saved from url=(0077)https://d396qusza40orc.cloudfront.net/phoenixassets/web-frameworks/index.html -->
 <html lang="en">
-   <head>
-   <meta charset="utf-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, inial-scale=1">
-   
-   <title>Ristorante Con Fusion</title>
-   
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, inial-scale=1">
+
+    <title>Ristorante Con Fusion</title>
+
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -17,9 +18,9 @@
 </head>
 
 <body data-spy="scroll" data-target="#myScrollspy" data-offset="200">
- 
-       <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-              
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -30,7 +31,7 @@
                 </button>
                 <a class="navbar-brand" href="#"><img src="img/logo.png" height=30 width=41></a>
             </div>
-               
+
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="Home.html"><span class="glyphicon glyphicon-home"
@@ -38,9 +39,8 @@
                     <li class="active"><a href="About.html"><span class="glyphicon glyphicon-info-sign"
                          aria-hidden="true"></span> About</a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                         role="button" aria-haspopup="true" aria-expanded="false">
-                         <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Menu<span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Menu<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Appetizers</a></li>
                             <li><a href="#">Main Courses</a></li>
@@ -54,38 +54,39 @@
                     </li>
                     <li><a href="Contact.html"><i class="fa fa-envelope-o"></i> Contact</a></li>
                 </ul>
-                
+
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a data-toggle="modal" data-target="#loginModal">
-                    <span class="glyphicon glyphicon-log-in"></span> Login</a>
+                    <li>
+                        <a data-toggle="modal" data-target="#loginModal">
+                            <span class="glyphicon glyphicon-log-in"></span> Login</a>
                     </li>
                 </ul>
-                
-                </div>
-            </div>
-        </nav> 
-        
-         <!--залогиниться --> 
-        <div id="loginModal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Login </h4>
-                    </div>
-                    <div class="modal-body">
 
-                      <form class="form-inline" role="search">
+            </div>
+        </div>
+    </nav>
+
+    <!--залогиниться -->
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Login </h4>
+                </div>
+                <div class="modal-body">
+
+                    <form class="form-inline" role="search">
                         <div class="form-group">
-                           <label class="sr-only" for="email">Email Address</label>
+                            <label class="sr-only" for="email">Email Address</label>
                             <input id="email" type="email" class="form-control input-sm" placeholder="Email">
                             <label class="sr-only" for="password">Password</label>
-                              <input id="password" type="password" class="form-control" placeholder="Password">  
+                            <input id="password" type="password" class="form-control" placeholder="Password">
 
                             <div class="chechbox">
                                 <label>
-                                        <input type="checkbox" name="approve" value="">Remember me 
+                                    <input type="checkbox" name="approve" value="">Remember me
                                 </label>
                             </div>
                             <button type="submit" class="btn btn-info btn-sm">Sign in</button>
@@ -93,18 +94,18 @@
                         </div>
                     </form>
 
-                    </div>
                 </div>
             </div>
-        </div>    
-        
-        <header class="jumbotron">
+        </div>
+    </div>
+
+    <header class="jumbotron">
 
         <!-- Main component for a primary marketing message or call to action -->
 
         <div class="container">
-           
-                      
+
+
             <div class="row row-header">
                 <div class="col-xs-12 col-sm-8">
                     <h1>Ristorante con Fusion</h1>
@@ -118,238 +119,256 @@
             </div>
         </div>
     </header>
-       
+
 
     <div class="container">
-       <div class="row">
-       <div class="col-xs-12 col-sm-10">
-       
-       <div class="col-xs-12">
-          <div>
-            <ol class="breadcrumb">
-                <li><a href="Home.html">Home</a></li>
-                <li class="active">About</li>
-            </ol>
-          </div>
-            <div>
-                <h3>About Us</h3>
-                <hr>
-            </div>
-         </div>
-        
-       
-        <div id="history" class="row row-content">
-            <div class="col-xs-12 col-sm-6 col-lg-7">
-                <h2>Our History</h2>
-                <p>Started in 2010, Ristorante con Fusion quickly established itself as a culinary icon par excellence in Hong Kong. With its unique brand of world fusion cuisine that can be found nowhere else, it enjoys patronage from the A-list clientele in Hong Kong. Featuring four of the best three-star Michelin chefs in the world, you never know what will arrive on your plate the next time you visit us.</p>
-                <p>The restaurant traces its humble beginnings to <em>The Frying Pan</em>, a successful chain started by our CEO, Mr. Peter Pan, that featured for the first time the world's best cuisines in a pan.</p>
-            </div>
-            
-                  <div class="col-xs-12 col-sm-6 col-lg-5">
-                      <div class="panel panel-primary">
+        <div class="row">
+            <div class="col-xs-12 col-sm-10">
+
+                <div class="col-xs-12">
+                    <div>
+                        <ol class="breadcrumb">
+                            <li><a href="Home.html">Home</a></li>
+                            <li class="active">About</li>
+                        </ol>
+                    </div>
+                    <div>
+                        <h3>About Us</h3>
+                        <hr>
+                    </div>
+                </div>
+
+
+                <div id="history" class="row row-content">
+                    <div class="col-xs-12 col-sm-6 col-lg-7">
+                        <h2>Our History</h2>
+                        <p>Started in 2010, Ristorante con Fusion quickly established itself as a culinary icon par excellence in Hong Kong. With its unique brand of world fusion cuisine that can be found nowhere else, it enjoys patronage from the A-list clientele in Hong Kong. Featuring four of the best three-star Michelin chefs in the world, you never know what will arrive on your plate the next time you visit us.</p>
+                        <p>The restaurant traces its humble beginnings to <em>The Frying Pan</em>, a successful chain started by our CEO, Mr. Peter Pan, that featured for the first time the world's best cuisines in a pan.</p>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-lg-5">
+                        <div class="panel panel-primary">
                             <div class="panel-heading">
                                 <h3 class="panel-title">Facts At a Glance</h3>
 
                             </div>
                             <div class="panel-body">
                                 <dl class="dl-horizontal">
-                                    <dt>Started</dt><dd>3 Feb. 2013</dd>
-                                    <dt>Major Stake Holder</dt><dd>HK Fine Foods Inc.</dd>
-                                    <dt>Last Year's Turnover</dt><dd>$1,250,375</dd>
-                                    <dt>Employees</dt><dd>40</dd>
-                               </dl>
+                                    <dt>Started</dt>
+                                    <dd>3 Feb. 2013</dd>
+                                    <dt>Major Stake Holder</dt>
+                                    <dd>HK Fine Foods Inc.</dd>
+                                    <dt>Last Year's Turnover</dt>
+                                    <dd>$1,250,375</dd>
+                                    <dt>Employees</dt>
+                                    <dd>40</dd>
+                                </dl>
                             </div>
                         </div>
-                   </div>
-                   
-                   <div class="col-xs-12 col-sm-6 col-lg-10">
-                    <div class="well">
-                        <blockquote>
-                            <p>You better cut the pizza in four pieces because
-                                I'm not hungry enough to eat six.</p>
-                            <footer>Yogi Berra,
-                              <cite>The Wit and Wisdom of Yogi Berra,
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-lg-10">
+                        <div class="well">
+                            <blockquote>
+                                <p>You better cut the pizza in four pieces because I'm not hungry enough to eat six.</p>
+                                <footer>Yogi Berra,
+                                    <cite>The Wit and Wisdom of Yogi Berra,
                                 P. Pepe, Diversion Books, 2014</cite>
-                            </footer>
-                        </blockquote>
-                     </div> 
-                    </div> 
-            
-            
-        </div>
+                                </footer>
+                            </blockquote>
+                        </div>
+                    </div>
 
 
-        <div id="corporate" class="row row-content">
-            <div class="col-xs-12">
-                       
-                <h2>Corporate Leadership</h2>
-                
-                <ul class="nav nav-tabs" role="tablist">
-                    <li role="presentation" class="active">
-                    <a href="#peter" aria-controls="peter"
-                     role="tab" data-toggle="tab">Peter Pan, CEO</a></li>
-                    <li role="presentation"><a href="#danny"
-                     aria-controls="danny" role="tab"
-                     data-toggle="tab">Danny Witherspoon, CFO</a></li>
-                    <li role="presentation"><a href="#agumbe"
-                     aria-controls="agumbe" role="tab"
-                     data-toggle="tab">Agumbe Tang, CTO</a></li>
-                    <li role="presentation"><a href="#alberto"
-                     aria-controls="alberto" role="tab"
-                     data-toggle="tab">Alberto Somayya, Exec. Chef</a></li>
-                </ul>
-                
-                
-                <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane fade in active" id="peter">
-                        <h3>Peter Pan <small>Chief Epicurious Officer</small></h3>
-                
-                        <p>Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which <em>The Frying Pan</em> became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural culinary connections.</p>
-                    </div>
-                    <div role="tabpanel" class="tab-pane fade" id="danny">
-                        <h3>Dhanasekaran Witherspoon <small>Chief Food Officer</small></h3>
-                
-                        <p>Our CFO, Danny, as he is affectionately referred to by his colleagues, comes from a long established family tradition in farming and produce. His experiences growing up on a farm in the Australian outback gave him great appreciation for varieties of food sources. As he puts it in his own words, <em>Everything that runs, wins, and everything that stays, pays!</em></p>
-                    </div>
-                    <div role="tabpanel" class="tab-pane fade" id="agumbe">
-                        <h3>Agumbe Tang <small>Chief Taste Officer</small></h3>
-                
-                        <p>Blessed with the most discerning gustatory sense, Agumbe, our CFO, personally ensures that every dish that we serve meets his exacting tastes. Our chefs dread the tongue lashing that ensues if their dish does not meet his exacting standards. He lives by his motto, <em>You click only if you survive my lick.</em></p>
-                    </div>
-                    <div role="tabpanel" class="tab-pane fade" id="alberto">
-                        <h3>Alberto Somayya <small>Executive Chef</small></h3>
-                
-                        <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, <em>Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!</em></p>
+                </div>
+
+
+                <div id="corporate" class="row row-content">
+                    <div class="col-xs-12">
+
+                        <h2>Corporate Leadership</h2>
+
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active">
+                                <a href="#peter" aria-controls="peter" role="tab" data-toggle="tab">Peter Pan, CEO</a></li>
+                            <li role="presentation"><a href="#danny" aria-controls="danny" role="tab" data-toggle="tab">Danny Witherspoon, CFO</a></li>
+                            <li role="presentation"><a href="#agumbe" aria-controls="agumbe" role="tab" data-toggle="tab">Agumbe Tang, CTO</a></li>
+                            <li role="presentation"><a href="#alberto" aria-controls="alberto" role="tab" data-toggle="tab">Alberto Somayya, Exec. Chef</a></li>
+                        </ul>
+
+
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane fade in active" id="peter">
+                                <h3>Peter Pan <small>Chief Epicurious Officer</small></h3>
+
+                                <p>Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which <em>The Frying Pan</em> became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural culinary connections.</p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="danny">
+                                <h3>Dhanasekaran Witherspoon <small>Chief Food Officer</small></h3>
+
+                                <p>Our CFO, Danny, as he is affectionately referred to by his colleagues, comes from a long established family tradition in farming and produce. His experiences growing up on a farm in the Australian outback gave him great appreciation for varieties of food sources. As he puts it in his own words, <em>Everything that runs, wins, and everything that stays, pays!</em></p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="agumbe">
+                                <h3>Agumbe Tang <small>Chief Taste Officer</small></h3>
+
+                                <p>Blessed with the most discerning gustatory sense, Agumbe, our CFO, personally ensures that every dish that we serve meets his exacting tastes. Our chefs dread the tongue lashing that ensues if their dish does not meet his exacting standards. He lives by his motto, <em>You click only if you survive my lick.</em></p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="alberto">
+                                <h3>Alberto Somayya <small>Executive Chef</small></h3>
+
+                                <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, <em>Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!</em></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        
-        
-        
-        <div id="littleinfoaboutus" class="row row-content">
-            <div class="col-xs-12">
-                       
-                <h2>A little bit About Us</h2>
-                
-                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                  <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="headingOne">
-                      <h4 class="panel-title">
+
+
+
+                <div id="littleinfoaboutus" class="row row-content">
+                    <div class="col-xs-12">
+
+                        <h2>A little bit About Us</h2>
+
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <h4 class="panel-title">
                         <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                           The standard Lorem Ipsum passage, used since the 1500s
                         </a>
                       </h4>
-                    </div>
-                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                      <div class="panel-body">
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                      </div>
-                    </div>
-                  </div>
-                  <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="headingTwo">
-                      <h4 class="panel-title">
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                    <div class="panel-body">
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                           Section <b>1.10.32</b> of <em>"de Finibus Bonorum et Malorum"</em>, written by Cicero in 45 BC
                         </a>
                       </h4>
-                    </div>
-                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                      <div class="panel-body">
-                        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-                      </div>
-                    </div>
-                  </div>
-                  <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="headingThree">
-                      <h4 class="panel-title">
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+                                        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingThree">
+                                    <h4 class="panel-title">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                           1914 translation by H. Rackham
                         </a>
                       </h4>
-                    </div>
-                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                      <div class="panel-body">
-                        "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
-                      </div>
-                    </div>
-                  </div>
-                  <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="headingFour">
-                      <h4 class="panel-title">
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                    <div class="panel-body">
+                                        "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingFour">
+                                    <h4 class="panel-title">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                           Section <b>1.10.33</b> of <em>"de Finibus Bonorum et Malorum"</em>, written by Cicero in 45 BC
                         </a>
                       </h4>
-                    </div>
-                    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                      <div class="panel-body">
-                        "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-                      </div>
-                    </div>
-                  </div>
-                  <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="headingFive">
-                      <h4 class="panel-title">
+                                </div>
+                                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                    <div class="panel-body">
+                                        "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingFive">
+                                    <h4 class="panel-title">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                           1914 translation by H. Rackham
                         </a>
                       </h4>
+                                </div>
+                                <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                                    <div class="panel-body">
+                                        "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- close the panel-group -->
                     </div>
-                    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-                      <div class="panel-body">
-                        "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
-                      </div>
-                    </div>
-                  </div>
-                </div> <!-- close the panel-group -->
-            </div>  <!-- close the colloms -->
-        </div> <!-- close the row row-content -->
-            
-        <div id="facts" class="row row-content">
-            <div class="col-xs-12">
-                <h2>Facts &amp; Figures</h2>
-                <div class="table-response">
-                    <table class="table table-striped table-hover">
-                        <tr>
-                            <td>&nbsp;</td><th>2013</th><th>2014</th><th>2015</th>
-                        </tr>
-                        <tr>
-                           <th>Employees</th><td>15</td> <td>30</td><td>40</td>
-                        </tr>
-                        <tr>
-                           <th>Guests Served</th><td>15000</td> <td>45000</td><td>100,000</td>
-                        </tr>
-                        <tr>
-                            <th>Special Events</th><td>3</td><td>20</td><td>45</td>
-                        </tr>
-                        <tr>
-                            <th>Annual Turnover</th><td>$251,325</td><td>$1,250,375</td><td>~$3,000,000</td>
-                        </tr>
-                    </table>
+                    <!-- close the colloms -->
                 </div>
-            </div>       
-       </div> <!-- close the row row-content -->
-      </div>  <!-- close the huge web-page colloms -->  
-      
-         <nav class="hidden-xs col-sm-2" id="myScrollspy">
-            <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="400">
-                <li><a href="#history">Our History</a></li>
-                <li><a href="#corporate">Corporate</a></li>
-                <li><a href="#littleinfoaboutus">A little bit About Us</a></li>
-                <li><a href="#facts">Facts</a></li>
-            </ul>
-         </nav>
-               
-     </div> <!-- close the row -->
-    </div>  <!-- close the container -->
+                <!-- close the row row-content -->
 
-   
-   
+                <div id="facts" class="row row-content">
+                    <div class="col-xs-12">
+                        <h2>Facts &amp; Figures</h2>
+                        <div class="table-response">
+                            <table class="table table-striped table-hover">
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <th>2013</th>
+                                    <th>2014</th>
+                                    <th>2015</th>
+                                </tr>
+                                <tr>
+                                    <th>Employees</th>
+                                    <td>15</td>
+                                    <td>30</td>
+                                    <td>40</td>
+                                </tr>
+                                <tr>
+                                    <th>Guests Served</th>
+                                    <td>15000</td>
+                                    <td>45000</td>
+                                    <td>100,000</td>
+                                </tr>
+                                <tr>
+                                    <th>Special Events</th>
+                                    <td>3</td>
+                                    <td>20</td>
+                                    <td>45</td>
+                                </tr>
+                                <tr>
+                                    <th>Annual Turnover</th>
+                                    <td>$251,325</td>
+                                    <td>$1,250,375</td>
+                                    <td>~$3,000,000</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- close the row row-content -->
+            </div>
+            <!-- close the huge web-page colloms -->
+
+            <nav class="hidden-xs col-sm-2" id="myScrollspy">
+                <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="400">
+                    <li><a href="#history">Our History</a></li>
+                    <li><a href="#corporate">Corporate</a></li>
+                    <li><a href="#littleinfoaboutus">A little bit About Us</a></li>
+                    <li><a href="#facts">Facts</a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <!-- close the row -->
+    </div>
+    <!-- close the container -->
+
+
+
     <footer class="row-footer">
         <div class="container">
-            <div class="row">             
+            <div class="row">
                 <div class="col-xs-5 col-xs-offset-1 col-sm-2 col-xs-offset-1">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
@@ -390,7 +409,8 @@
         </div>
     </footer>
 
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
- <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
