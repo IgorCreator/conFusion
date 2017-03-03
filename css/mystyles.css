@@ -97,6 +97,15 @@ body{
 }
 
 #ReserveModal{
-    color:black;
-    
+    color: white;
+}
+
+#ReserveFormModal{
+    color:black;    
+}
+
+#carouselButtons {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
 }
